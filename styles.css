@@ -1,0 +1,52 @@
+/* Allgemeines Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Sektion 1 & 2: Bilder */
+.hero, .image-section {
+    width: 100%;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.hero img, .image-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Sektion 3: Expertise */
+.expertise {
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.expertise h2 {
+    font-size: 24px;
+}
+
+.expertise ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.expertise li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Sektion 4: Kontakt */
+.contact {
+    padding: 50px;
+    background-color: #222;
+    color: white;
+}
+
+.contact a {
+    color: #00bcd4;
+    text-decoration: none;
+}
