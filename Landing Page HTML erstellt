@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulting Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Sektion 1: Großes Bild mit Logo & Text -->
+    <section class="hero">
+        <img src="bild1.jpg" alt="Intro Bild mit Logo und Text">
+    </section>
+
+    <!-- Sektion 2: Zweites Bild -->
+    <section class="image-section">
+        <img src="bild2.jpg" alt="Zweites Bild mit Text">
+    </section>
+
+    <!-- Sektion 3: Übersicht der Expertise -->
+    <section class="expertise">
+        <h2>Unsere Expertise</h2>
+        <p>Hier kannst du einige Stichpunkte oder eine kurze Beschreibung deiner Dienstleistungen einfügen.</p>
+        <ul>
+            <li>Strategieberatung</li>
+            <li>Digitalisierung</li>
+            <li>Marketing & Branding</li>
+            <li>Prozessoptimierung</li>
+        </ul>
+    </section>
+
+    <!-- Sektion 4: Kontakt -->
+    <section class="contact">
+        <h2>Kontakt</h2>
+        <p>Erreiche uns unter:</p>
+        <p>Email: <a href="mailto:info@yourdomain.com">info@yourdomain.com</a></p>
+    </section>
+
+</body>
+</html>
